@@ -6,7 +6,7 @@ angular.module('mainApp.controllers')
     function($scope, $timeout, generator) {
       $scope.gridsterOptions = {
         margins: [20, 20],
-        columns: 4,
+        columns: 3,
         //mobileBreakPoint: 1000,
         mobileModeEnabled: false,
         draggable: {
